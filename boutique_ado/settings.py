@@ -30,7 +30,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 SECRET_KEY = 'django-insecure-o^*s9utr@gkz55rq9!-c)v3=g!er1ai^v126ib50x1u4oj(z7!'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = [
     '127.0.0.1', # vs code host
